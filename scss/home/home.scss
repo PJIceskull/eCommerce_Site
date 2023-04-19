@@ -3,3 +3,11 @@
   max-width: $site-width;
   min-height: 700px;
 }
+.Hero-IMG {
+  background-image: url(../img/pexels-wolfgang-2747449.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: $site-height;
+  width: 100%;
+}
