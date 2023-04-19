@@ -47,7 +47,6 @@ p {
   max-width: 1280px;
   min-height: 800px;
   margin: 0 auto;
-  background-color: aqua;
 }
 
 .navBar {
@@ -77,6 +76,12 @@ p {
 }
 .navBar .shopBag {
   height: 48px;
+}
+
+#Home-Section {
+  background-color: blue;
+  max-width: 1280px;
+  min-height: 700px;
 }
 
 /*# sourceMappingURL=styles.css.map */
