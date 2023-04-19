@@ -65,9 +65,11 @@ a {
 }
 
 .navBar {
-  background-color: #262526;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
   height: 100px;
-  max-width: 1280px;
+  background-color: #262526;
   color: #f2f2f2;
   margin: 0 auto;
   display: flex;

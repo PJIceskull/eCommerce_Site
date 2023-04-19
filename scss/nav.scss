@@ -1,7 +1,10 @@
 .navBar {
-  background-color: $raisin-black;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
   height: 100px;
-  max-width: $site-width;
+  // max-width: $site-width;
+  background-color: $raisin-black;
   color: $white-smoke;
   margin: 0 auto;
   display: flex;
