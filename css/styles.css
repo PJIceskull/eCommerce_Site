@@ -47,6 +47,17 @@ p {
   font-family: FuturaExtraBlack;
   src: url(fonts/Futura_Extra_Black_font.ttf);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: FuturaBook;
+}
+
 .wrapper {
   max-width: 1280px;
   min-height: 800px;
@@ -97,6 +108,20 @@ p {
   width: 100%;
   background-color: #262526;
   background-blend-mode: luminosity;
+}
+.Hero-IMG h1 {
+  color: #f60a20;
+  text-transform: uppercase;
+  font-family: FuturaHeavy;
+  font-size: 105px;
+  letter-spacing: 2.1px;
+}
+.Hero-IMG h2 {
+  color: #f2f2f2;
+  font-family: FuturaHeavy;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

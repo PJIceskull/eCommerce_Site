@@ -12,4 +12,18 @@
   width: 100%;
   background-color: $raisin-black;
   background-blend-mode: luminosity;
+  h1 {
+    color: $red-cmyk;
+    text-transform: uppercase;
+    font-family: FuturaHeavy;
+    font-size: 105px;
+    letter-spacing: 2.1px;
+  }
+  h2 {
+    color: $white-smoke;
+    font-family: FuturaHeavy;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
 }
