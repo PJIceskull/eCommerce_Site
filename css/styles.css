@@ -135,4 +135,30 @@ a {
   margin-bottom: 0;
 }
 
+.linkBox1 {
+  background-color: #262526;
+  color: #f2f2f2;
+  max-width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 40px;
+  text-align: center;
+}
+.linkBox1 p {
+  font-family: FuturaBook;
+}
+.linkBox1 a {
+  font-family: FuturaMedium;
+  color: #f2f2f2;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+.linkBox1 a:hover {
+  color: #f60a20;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles.css.map */

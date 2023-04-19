@@ -36,3 +36,28 @@
     margin-bottom: 0;
   }
 }
+.linkBox1 {
+  background-color: $raisin-black;
+  color: $white-smoke;
+  max-width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 40px;
+  text-align: center;
+  p {
+    font-family: FuturaBook;
+  }
+  a {
+    font-family: FuturaMedium;
+    color: $white-smoke;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    &:hover {
+      color: $red-cmyk;
+      text-decoration: underline;
+    }
+  }
+}
