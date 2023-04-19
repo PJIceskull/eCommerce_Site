@@ -20,3 +20,5 @@
 - [Coolors](https://coolors.co/1c2321-7d98a1-5e6572-a9b4c2-eef1ef)
 - [Pexel](https://www.pexels.com/)
 - [Color Designer](https://colordesigner.io/)
+- [Favicon.io](https://favicon.io/)
+- [Google Fonts](https://fonts.google.com/)
