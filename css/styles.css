@@ -91,6 +91,8 @@ p {
   background-position: top;
   height: 800px;
   width: 100%;
+  background-color: #262526;
+  background-blend-mode: luminosity;
 }
 
 /*# sourceMappingURL=styles.css.map */
