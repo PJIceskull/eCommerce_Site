@@ -29,5 +29,13 @@
     "readdirp": "^3.6.0",
     "source-map-js": "^1.0.2",
     "to-regex-range": "^5.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PJIceskull/eCommerce_Site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PJIceskull/eCommerce_Site/issues"
+  },
+  "homepage": "https://github.com/PJIceskull/eCommerce_Site#readme"
 }
