@@ -1,0 +1,29 @@
+.navBar {
+  background-color: $raisin-black;
+  height: 100px;
+  max-width: $site-width;
+  color: $white-smoke;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    color: $white-smoke;
+    text-decoration: none;
+    font-family: FuturaMedium;
+    font-size: 30px;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+    &:hover {
+      color: $red-cmyk;
+    }
+  }
+  img {
+    height: 67px;
+    margin-left: 30px;
+  }
+  //   .links {
+  //     display: flex;
+  //     justify-content: space-evenly;
+  //   }
+}
