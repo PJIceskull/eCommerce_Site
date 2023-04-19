@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: FuturaCondensedLight;
+  src: url(fonts/Futura-CondensedLight.ttf);
+}
+@font-face {
+  font-family: FuturaLight;
+  src: url(fonts/Futura_Light_font.ttf);
+}
+@font-face {
+  font-family: FuturaBook;
+  src: url(fonts/Futura_Book_font.ttf);
+}
+@font-face {
+  font-family: FuturaMedium;
+  src: url(fonts/futura_medium_bt.ttf);
+}
+@font-face {
+  font-family: FuturaHeavy;
+  src: url(fonts/Futura_Heavy_font.ttf);
+}
+@font-face {
+  font-family: FuturaExtraBlack;
+  src: url(fonts/Futura_Extra_Black_font.ttf);
+}
+.wrapper {
+  max-width: 1280px;
+  min-height: 800px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
