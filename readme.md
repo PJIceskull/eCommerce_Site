@@ -12,7 +12,7 @@
 
 ## Adobe XD Link
 
-<!-- [Link to XD Prototype](https://xd.adobe.com/view/b250d525-f46a-40f7-bfdc-96c7ffec3aa0-e703/) -->
+[Link to XD Prototype](https://xd.adobe.com/view/3a65a9bd-de05-4d52-9ac8-eafea98ead41-6f36/)
 
 ## Credits / Resources
 
