@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 30px;
   a {
     color: $white-smoke;
     text-decoration: none;
@@ -18,9 +19,11 @@
       color: $red-cmyk;
     }
   }
-  img {
+  .logo {
     height: 67px;
-    margin-left: 30px;
+  }
+  .shopBag {
+    height: 48px;
   }
   //   .links {
   //     display: flex;

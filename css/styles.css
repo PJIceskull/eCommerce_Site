@@ -59,6 +59,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 30px;
 }
 .navBar a {
   color: #f2f2f2;
@@ -71,9 +72,11 @@ p {
 .navBar a:hover {
   color: #f60a20;
 }
-.navBar img {
+.navBar .logo {
   height: 67px;
-  margin-left: 30px;
+}
+.navBar .shopBag {
+  height: 48px;
 }
 
 /*# sourceMappingURL=styles.css.map */
