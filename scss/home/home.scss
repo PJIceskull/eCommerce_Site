@@ -12,6 +12,14 @@
   width: 100%;
   background-color: $raisin-black;
   background-blend-mode: luminosity;
+  display: flex;
+  align-items: self-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  h1,
+  h2 {
+    margin-left: 42px;
+  }
   h1 {
     color: $red-cmyk;
     text-transform: uppercase;
