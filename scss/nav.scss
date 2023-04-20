@@ -29,3 +29,9 @@
     height: 48px;
   }
 }
+
+@media screen and (max-width: 730px) {
+  .navBar {
+    flex-direction: column;
+  }
+}

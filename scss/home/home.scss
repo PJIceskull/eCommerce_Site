@@ -61,3 +61,21 @@
     }
   }
 }
+
+@media screen and (max-width: 730px) {
+  .Hero-IMG {
+    h1,
+    h2 {
+      margin-left: 5%;
+    }
+    h1 {
+      // font-size: 105px;
+      // font-size: 6.5525vw;
+      font-size: 13.125vw;
+    }
+    h2 {
+      // font-size: 40px;
+      font-size: 5vw;
+    }
+  }
+}

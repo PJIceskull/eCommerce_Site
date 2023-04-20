@@ -95,6 +95,11 @@ a {
   height: 48px;
 }
 
+@media screen and (max-width: 730px) {
+  .navBar {
+    flex-direction: column;
+  }
+}
 #Home-Section {
   background-color: blue;
   max-width: 1280px;
@@ -159,6 +164,19 @@ a {
 .linkBox1 a:hover {
   color: #f60a20;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 730px) {
+  .Hero-IMG h1,
+  .Hero-IMG h2 {
+    margin-left: 5%;
+  }
+  .Hero-IMG h1 {
+    font-size: 13.125vw;
+  }
+  .Hero-IMG h2 {
+    font-size: 5vw;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
