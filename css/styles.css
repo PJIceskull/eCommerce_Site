@@ -184,5 +184,11 @@ a {
     line-height: 46px;
   }
 }
+@media screen and (max-width: 730px) and (max-width: 425px) {
+  .linkBox1 p,
+  .linkBox1 a {
+    font-size: 5vw;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
