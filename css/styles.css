@@ -173,9 +173,15 @@ a {
   }
   .Hero-IMG h1 {
     font-size: 13.125vw;
+    line-height: 11.5vh;
   }
   .Hero-IMG h2 {
     font-size: 5vw;
+  }
+}
+@media screen and (max-width: 730px) and (max-width: 500px) {
+  .Hero-IMG h1 {
+    line-height: 46px;
   }
 }
 
