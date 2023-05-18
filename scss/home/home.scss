@@ -68,8 +68,37 @@
   h1 {
     color: $red-cmyk;
     text-decoration: underline;
+    font-size: 60px;
+  }
+  .albumBox {
+    color: $raisin-black;
+    font-size: 30px;
+  }
+  .albumImage {
+    height: 275px;
+  }
+  h3,
+  p {
+    margin-bottom: 5px;
+  }
+  h3 {
+    font-size: 34px;
+    font-family: FuturaMedium;
+  }
+  .priceBox {
+    background-color: $raisin-black;
+    color: $white-smoke;
+    height: 48px;
+    display: flex;
+    align-content: center;
+    justify-content: right;
+    p {
+      font-family: FuturaMedium;
+      margin-top: 5px;
+    }
   }
 }
+
 // Media Queries
 @media screen and (max-width: 730px) {
   .Hero-IMG {
