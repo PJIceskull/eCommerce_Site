@@ -167,14 +167,19 @@ a {
 }
 
 .topAlbums {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  margin-top: 80px;
 }
 .topAlbums h1 {
   color: #f60a20;
   text-decoration: underline;
   font-size: 60px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.topAlbums .albumRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .topAlbums .albumBox {
   color: #262526;
@@ -190,6 +195,7 @@ a {
 .topAlbums h3 {
   font-size: 34px;
   font-family: FuturaMedium;
+  margin-top: 5px;
 }
 .topAlbums .priceBox {
   background-color: #262526;
