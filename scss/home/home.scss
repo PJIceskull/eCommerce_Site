@@ -61,7 +61,16 @@
     }
   }
 }
-
+.topAlbums {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  h1 {
+    color: $red-cmyk;
+    text-decoration: underline;
+  }
+}
+// Media Queries
 @media screen and (max-width: 730px) {
   .Hero-IMG {
     h1,

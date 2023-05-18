@@ -166,6 +166,16 @@ a {
   text-decoration: underline;
 }
 
+.topAlbums {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.topAlbums h1 {
+  color: #f60a20;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 730px) {
   .Hero-IMG h1,
   .Hero-IMG h2 {
