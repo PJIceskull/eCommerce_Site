@@ -78,14 +78,16 @@
   }
   .albumBox {
     color: $raisin-black;
-    font-size: 30px;
+    // font-size: 30px;
+    font-size: 1.875rem;
   }
   h3,
   p {
     margin-bottom: 5px;
   }
   h3 {
-    font-size: 34px;
+    // font-size: 34px;
+    font-size: 2.125rem;
     font-family: FuturaMedium;
     margin-top: 5px;
   }
@@ -136,6 +138,14 @@
       a {
         font-size: 5vw;
       }
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .albumRow {
+    flex-direction: column;
+    .albumBox {
+      margin-bottom: 45px;
     }
   }
 }

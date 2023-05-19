@@ -184,14 +184,14 @@ a {
 }
 .topAlbums .albumBox {
   color: #262526;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .topAlbums h3,
 .topAlbums p {
   margin-bottom: 5px;
 }
 .topAlbums h3 {
-  font-size: 34px;
+  font-size: 2.125rem;
   font-family: FuturaMedium;
   margin-top: 5px;
 }
@@ -230,6 +230,14 @@ a {
   .linkBox1 p,
   .linkBox1 a {
     font-size: 5vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  .albumRow {
+    flex-direction: column;
+  }
+  .albumRow .albumBox {
+    margin-bottom: 45px;
   }
 }
 .albumBox {
